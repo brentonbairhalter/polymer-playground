@@ -1,0 +1,16 @@
+*.sublime-workspace
+.sublimelinterrc
+.DS_Store
+.idea/
+.Trashes
+$RECYCLE.BIN/
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+reports
+karma.conf.temp.js
+*.sublime-project
+node_modules
+npm-debug.log

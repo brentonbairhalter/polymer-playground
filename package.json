@@ -1,0 +1,23 @@
+{
+  "name": "polymer-playground",
+  "version": "1.0.0",
+  "description": "testing polymer and web components",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentonbairhalter/polymer-playground.git"
+  },
+  "keywords": [
+    "polymer",
+    "web-component"
+  ],
+  "author": "Brenton Bairhalter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentonbairhalter/polymer-playground/issues"
+  },
+  "homepage": "https://github.com/brentonbairhalter/polymer-playground#readme"
+}
