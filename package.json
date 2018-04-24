@@ -1,23 +1,15 @@
 {
-  "name": "polymer-playground",
-  "version": "1.0.0",
-  "description": "testing polymer and web components",
-  "main": "index.js",
+  "name": "polymer-starter-kit",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.0",
+    "eslint-plugin-html": "^2.0.0"
+  },
   "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brentonbairhalter/polymer-playground.git"
-  },
-  "keywords": [
-    "polymer",
-    "web-component"
-  ],
-  "author": "Brenton Bairhalter",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brentonbairhalter/polymer-playground/issues"
-  },
-  "homepage": "https://github.com/brentonbairhalter/polymer-playground#readme"
+    "lint": "npm run lint:javascript && polymer lint",
+    "lint:javascript": "eslint . --ext js,html --ignore-path .gitignore",
+    "test": "polymer test",
+    "test:integration": "polymer build # test that psk builds without error with the CLI"
+  }
 }
